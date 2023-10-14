@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media (min-width:992px) {
+    .image {
+        height: 450px;
+        width: auto;
+    }
+
+    .head {
+        font-size: 25px;
+    }
+
+    .nav-img {
+        height: 30px;
+    }
+
+    .premiere {
+        height: 50vh;
+        width: 100%;
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+    .p-1 {
+        font-size: 25px;
+    }
+
+    .car-img {
+        width: 100%;
+        height: 80vh;
+    }
+
+
+
+}
+
+@media (max-width:768px) {
+    .image {
+        height: 300px;
+        width: auto;
+    }
+
+    .head {
+        font-size: 25px;
+    }
+
+    .premiere {
+        height: 50vh;
+        width: 100%;
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+    .nav-img {
+        height: 30px;
+    }
+
+    .p-1 {
+        font-size: 22px;
+    }
+
+    .car-img {
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+@media (min-width:576px) {
+    .image {
+        height: 300px;
+        width: auto;
+    }
+
+    .nav-img {
+        height: 30px;
+    }
+
+    .head {
+        font-size: 15px;
+    }
+
+    .premiere {
+        height: 70vh;
+        width: 100%;
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+    .p-1 {
+        font-size: 23px;
+    }
+
+    .car-img {
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+@media (min-width:768px) {
+    .image {
+        height: 350px;
+        width: auto;
+    }
+
+    .head {
+        font-size: 20px;
+    }
+
+    .premiere {
+        height: 70vh;
+        width: 100%;
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+    .nav-img {
+        height: 30px;
+    }
+
+    .p-1 {
+        font-size: 22px;
+    }
+
+    .car-img {
+        width: 100%;
+        height: 59vh;
+    }
+}
+
+@media (max-width:576px) {
+    .image {
+        height: 220px;
+        width: auto;
+    }
+
+    .head {
+        font-size: 15px;
+    }
+
+    .premiere {
+        height: 25vh;
+        width: 100%;
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+
+    .nav-img {
+        height: 30px;
+    }
+
+    .p-1 {
+        font-size: 17px;
+    }
+
+    .car-img {
+        width: 100%;
+        height: 40vh;
+    }
+
+}
+
+.h2 {
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: solid red 1px;
+    height: auto;
+    padding: 5px;
+    font-family: bebasneue;
+
+}
+
+.kar-bg {
+    background-color: whitesmoke;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+.your-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Prevent text wrapping */
+}
+
+.your-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.your-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+.your-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.your-container {
+    cursor: grab;
+}
+
+.channel-img {
+    width: 20%;
+    height: 190px;
+}
+
+.main-bg {
+    background-image: url();
+}
+
+.premieres {
+    background-image: linear-gradient(to right, blue, white, green);
+
+    background-size: contain;
+
+
+}
+
+
+.image {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #d4af37;
+}
+
+.title {
+    color: whitesmoke;
+    font-family: Garamond;
+    font-weight: bold;
+}
+
+
+
+.theme-btn {
+
+    width: 100%;
+    margin: 5px;
+    color: whitesmoke;
+
+}
